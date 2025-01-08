@@ -17,3 +17,8 @@ const KV_MAP = {
     <option value="kv1">KV 存储1</option>
 </select>
 ```
+
+## 效果图
+
+<img width="1510" alt="image" src="https://github.com/user-attachments/assets/5c0fa312-8cfc-473f-9fc6-2ff9e8596101" />
+
