@@ -22,3 +22,6 @@ const KV_MAP = {
 
 <img width="1510" alt="image" src="https://github.com/user-attachments/assets/5c0fa312-8cfc-473f-9fc6-2ff9e8596101" />
 
+
+## 博客
+[Cloudflare KV管理工具](https://blog.bilivo.us.kg/article/cf-3)
