@@ -1,6 +1,6 @@
 // KV 映射表，value 值为当前 workers 绑定的 KV 名称
 const KV_MAP = {
-    'kv1': ' KV_NAME1'
+    'kv1': 'KV_NAME:当前 workers 绑定的 KV 名称'
     // 可以添加更多 KV 映射
   };
   
@@ -43,8 +43,7 @@ const KV_MAP = {
   </head>
   <body class="bg-gray-50 min-h-screen">
       <div class="max-w-4xl mx-auto p-6">
-          <h1 class="text-3xl font-bold text-gray-800 mb-8">Cloudflare - KV管理</h1>
-          
+          <h1 class="text-3xl font-bold text-gray-800 mb-8">Cloudflare KV 管理系统</h1>
           <!-- 授权和选择区域 -->
           <div class="bg-white rounded-lg shadow-sm p-6 mb-6">
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -110,6 +109,16 @@ const KV_MAP = {
               </div>
               <div id="kvList" class="overflow-x-auto"></div>
               <div id="pagination" class="mt-4 flex justify-center space-x-2"></div>
+          </div>
+  
+          <!-- 添加页脚信息 -->
+          <div class="mt-8 text-center text-sm text-gray-500">
+              <p>Created by <a href="https://github.com/LiJunYi2/cf-workers/tree/main/kv" 
+                  class="text-blue-600 hover:text-blue-800 hover:underline" 
+                  target="_blank" 
+                  rel="noopener noreferrer">
+                  @AAA
+              </a></p>
           </div>
       </div>
   
